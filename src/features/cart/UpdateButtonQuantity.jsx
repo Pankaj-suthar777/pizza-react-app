@@ -12,7 +12,9 @@ export default function UpdateButtonQuantity({ pizzaId, currentQuantity }) {
       >
         +
       </Button>
-      <span className="text-sm font-medium">{currentQuantity}</span>
+      <span className="w-4 text-center text-sm font-medium">
+        {currentQuantity}
+      </span>
       <Button
         onClick={() => dispatch(decreaseItemQuantity(pizzaId))}
         type="round"
