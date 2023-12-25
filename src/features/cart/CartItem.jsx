@@ -13,7 +13,7 @@ function CartItem({ item }) {
   );
 
   return (
-    <li className="flex flex-wrap items-center justify-between py-3">
+    <li className="flex  items-center justify-between py-3">
       <p className="mb-1 sm:mb-0">
         {quantity}&times; {name}
       </p>
